@@ -14,6 +14,14 @@
 </head>
 <body>
   <h1>這是我的 GA 測試頁面</h1>
+
+  <!-- 按鈕 -->
+  <button onclick="gtag('event', 'click', {
+    'event_category': 'button',
+    'event_label': 'test_button',
+    'value': 1
+  })">點我測試事件</button>
+
 </body>
 </html>
 
